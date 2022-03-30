@@ -7,6 +7,7 @@
 module OpenTelemetry
   # OpenTelemetry Baggage Implementation
   module Baggage
+    #just to test
     # Read-only representation of a baggage entry
     class Entry
       attr_reader :value, :metadata
